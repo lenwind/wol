@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">wol</string>
+    <string name="ip">请输入IP地址</string>
+    <string name="mac">请输入MAC地址</string>
+    <string name="save">保存信息</string>
+    <string name="wol">唤醒电脑</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_ip_address"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:autofillHints=""
+        android:hint="@string/ip"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_mac_address"
+        android:layout_width="379dp"
+        android:layout_height="58dp"
+        android:autofillHints=""
+        android:hint="@string/mac"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_save"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/button_wake_on_lan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="button_wake_on_lan"
+        android:text="@string/wol" />
+
+</LinearLayout>
